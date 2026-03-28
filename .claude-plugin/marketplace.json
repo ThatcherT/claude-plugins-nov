@@ -30,7 +30,7 @@
         "repo": "ThatcherT/liteframe"
       },
       "description": "Static page publisher. HTML + CSS at any subdomain, deployed to Nginx via Cloudflare Tunnel.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Thatcher"
       },
