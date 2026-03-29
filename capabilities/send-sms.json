@@ -1,30 +1,12 @@
 {
   "name": "send-sms",
-  "description": "Send an SMS text message to a phone number. Provider handles carrier transport. Message is plain text — Claude-powered providers can handle formatting if needed.",
-  "version": "1.0.0",
-  "tools": [
-    {
-      "name": "send_sms",
-      "description": "Send an SMS message to a phone number",
-      "parameters": {
-        "to": {
-          "type": "string",
-          "required": true,
-          "description": "Recipient phone number with country code (e.g., +15551234567)"
-        },
-        "message": {
-          "type": "string",
-          "required": true,
-          "description": "SMS message body"
-        },
-        "hints": {
-          "type": "object",
-          "required": false,
-          "description": "Optional sideband dict. Providers read keys they care about, ignore the rest. Known keys documented in hints registry below."
-        }
-      }
-    }
-  ],
+  "description": "Send an SMS text message to a phone number. Provider handles carrier transport. Consumers specify recipient and message — Claude routes to the appropriate provider tool based on grants.",
+  "version": "2.0.0",
+  "behavior": {
+    "input": "A recipient phone number (with country code), a message string, and optional hints dict",
+    "output": "Confirmation of delivery with channel details and success/failure status",
+    "deterministic": "Delivery must succeed or return explicit failure — never silently drop"
+  },
   "hints": {
     "source": {
       "type": "string",

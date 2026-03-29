@@ -5,7 +5,7 @@ This is the `nov-plugins` marketplace registry (`ThatcherT/nov-plugins`). Not a 
 ## Key Files
 
 - `.claude-plugin/marketplace.json` — plugin entries with name, source, version, category, capability fields
-- `capabilities/*.json` — capability contracts (e.g., notification, scheduling)
+- `capabilities/*.json` — capability contracts (e.g., notification, scheduling, send-sms)
 
 ## Version Bump Procedure
 
@@ -48,6 +48,8 @@ Run from the **plugin's own directory**, not here.
 
 ## Capability Contracts
 
-Contracts in `capabilities/*.json` define MCP tool signatures that providers must implement. Each has `name`, `version`, and `tools` array.
+Contracts in `capabilities/*.json` are semantic — they describe behavior, not tool signatures. Each has `name`, `version`, `behavior` (input/output/determinism), and `hints` (optional sideband registry).
 
-To add a new capability: create `capabilities/<name>.json`, then add providers to marketplace.json with `provides: ["<name>"]` and `environment` conditions for auto-selection.
+Contracts do NOT mandate tool names. Providers implement the capability with whatever tools make sense. Claude figures out which installed tool satisfies the capability at runtime based on the contract description and available tools.
+
+To add a new capability: create `capabilities/<name>.json` in this repo, then add providers to marketplace.json with `provides` and `environment` conditions.

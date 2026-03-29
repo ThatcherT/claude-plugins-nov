@@ -129,9 +129,6 @@
       "environment": {
         "os": "linux",
         "binary": "notify-send"
-      },
-      "grants": {
-        "notification": ["send_notification"]
       }
     },
     {
@@ -154,9 +151,6 @@
       "provides": ["notification"],
       "environment": {
         "os": "windows"
-      },
-      "grants": {
-        "notification": ["send_notification"]
       }
     },
     {
@@ -179,10 +173,6 @@
       "provides": ["notification", "send-sms"],
       "environment": {
         "mcp": "desktop-channel"
-      },
-      "grants": {
-        "notification": ["send_notification"],
-        "send-sms": ["send_sms"]
       }
     },
     {
@@ -203,10 +193,7 @@
       "requires": [],
       "optional": [],
       "provides": ["notification"],
-      "environment": {},
-      "grants": {
-        "notification": ["send_notification"]
-      }
+      "environment": {}
     },
     {
       "name": "notify-email",
@@ -226,10 +213,7 @@
       "requires": [],
       "optional": [],
       "provides": ["notification"],
-      "environment": {},
-      "grants": {
-        "notification": ["send_notification"]
-      }
+      "environment": {}
     }
   ]
 }

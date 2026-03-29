@@ -1,25 +1,12 @@
 {
   "name": "notification",
-  "description": "Alert the user through one or more channels. Provider handles channel selection, formatting, titles, and repeat logic. Message carries context — Claude-powered providers can parse and format intelligently.",
-  "version": "2.0.0",
-  "tools": [
-    {
-      "name": "send_notification",
-      "description": "Send a notification to the user",
-      "parameters": {
-        "message": {
-          "type": "string",
-          "required": true,
-          "description": "Notification message with context"
-        },
-        "hints": {
-          "type": "object",
-          "required": false,
-          "description": "Optional sideband dict. Providers read keys they care about, ignore the rest. Known keys documented in hints registry below."
-        }
-      }
-    }
-  ],
+  "description": "Alert the user through one or more channels. Provider handles channel selection, formatting, titles, and repeat logic. Consumers describe intent — Claude routes to the appropriate provider tool based on grants.",
+  "version": "3.0.0",
+  "behavior": {
+    "input": "A message string and optional hints dict",
+    "output": "Confirmation of delivery with channel details and success/failure status",
+    "deterministic": "Delivery must succeed or return explicit failure — never silently drop"
+  },
   "hints": {
     "urgency": {
       "type": "string",
