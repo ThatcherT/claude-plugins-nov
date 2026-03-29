@@ -54,7 +54,7 @@
         "repo": "ThatcherT/liteframe"
       },
       "description": "Static page publisher. HTML + CSS at any subdomain, deployed to Nginx via Cloudflare Tunnel.",
-      "version": "1.2.0",
+      "version": "1.1.0",
       "author": {
         "name": "Thatcher"
       },
@@ -63,16 +63,10 @@
       "keywords": ["static", "html", "landing-page", "deployment"],
       "category": "development",
       "requires": [],
-      "optional": ["notification"],
-      "provides": ["static-site-deploy"],
+      "optional": [],
+      "provides": [],
       "built_in_capabilities": ["static-site-build"],
-      "environment": {
-        "os": "linux",
-        "binary": "cloudflared"
-      },
-      "grants": {
-        "static-site-deploy": ["deploy_static_site"]
-      }
+      "environment": {}
     },
     {
       "name": "gummymine",
