@@ -1,0 +1,54 @@
+{
+  "name": "scheduling",
+  "description": "Run tasks on a recurring basis. Unit of work is a skill — scheduling providers execute plugin skills on intervals.",
+  "version": "1.0.0",
+  "tools": [
+    {
+      "name": "schedule_task",
+      "description": "Schedule a skill to run on a recurring interval",
+      "parameters": {
+        "name": {
+          "type": "string",
+          "required": true,
+          "description": "Unique name for this scheduled task"
+        },
+        "plugin": {
+          "type": "string",
+          "required": true,
+          "description": "Plugin that owns the skill"
+        },
+        "skill": {
+          "type": "string",
+          "required": true,
+          "description": "Skill to execute"
+        },
+        "interval": {
+          "type": "string",
+          "required": true,
+          "description": "Cron expression or interval string"
+        },
+        "enabled": {
+          "type": "boolean",
+          "required": true,
+          "description": "Whether the task is active"
+        }
+      }
+    },
+    {
+      "name": "list_tasks",
+      "description": "List all scheduled tasks",
+      "parameters": {}
+    },
+    {
+      "name": "remove_task",
+      "description": "Remove a scheduled task",
+      "parameters": {
+        "name": {
+          "type": "string",
+          "required": true,
+          "description": "Name of the task to remove"
+        }
+      }
+    }
+  ]
+}

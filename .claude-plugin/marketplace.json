@@ -8,6 +8,26 @@
   },
   "plugins": [
     {
+      "name": "nov-hub",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/nov-hub"
+      },
+      "description": "Plugin dependency resolver — detects environment, resolves capabilities, auto-selects providers, generates install plans.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["dependencies", "resolver", "capabilities", "framework"],
+      "category": "framework",
+      "requires": [],
+      "optional": [],
+      "provides": [],
+      "environment": {}
+    },
+    {
       "name": "zapframe",
       "source": {
         "source": "github",
@@ -21,7 +41,11 @@
       "homepage": "https://plugins.nov.solutions",
       "license": "MIT",
       "keywords": ["saas", "scaffolding", "django", "nextjs", "deployment"],
-      "category": "development"
+      "category": "development",
+      "requires": [],
+      "optional": [],
+      "provides": [],
+      "environment": {}
     },
     {
       "name": "liteframe",
@@ -37,7 +61,12 @@
       "homepage": "https://plugins.nov.solutions",
       "license": "MIT",
       "keywords": ["static", "html", "landing-page", "deployment"],
-      "category": "development"
+      "category": "development",
+      "requires": [],
+      "optional": [],
+      "provides": [],
+      "built_in_capabilities": ["static-site-build"],
+      "environment": {}
     },
     {
       "name": "gummymine",
@@ -53,7 +82,11 @@
       "homepage": "https://plugins.nov.solutions",
       "license": "MIT",
       "keywords": ["reddit", "audience-research", "market-research"],
-      "category": "research"
+      "category": "research",
+      "requires": [],
+      "optional": [],
+      "provides": [],
+      "environment": {}
     },
     {
       "name": "cardwatch",
@@ -69,7 +102,37 @@
       "homepage": "https://cardwatch.nov.solutions",
       "license": "MIT",
       "keywords": ["pokemon", "tcg", "stock-monitor", "queue", "retail", "notifications"],
-      "category": "utilities"
+      "category": "utilities",
+      "requires": ["notification"],
+      "optional": ["scheduling"],
+      "provides": [],
+      "environment": {}
+    },
+    {
+      "name": "notify-linux",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/notify-linux"
+      },
+      "description": "Linux desktop + phone notifications via notify-send and Termux.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["notification", "linux", "desktop", "phone", "termux"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["notification"],
+      "environment": {
+        "os": "linux",
+        "binary": "notify-send"
+      },
+      "grants": {
+        "notification": ["send_notification"]
+      }
     }
   ]
 }
