@@ -42,7 +42,7 @@
       "license": "MIT",
       "keywords": ["saas", "scaffolding", "django", "nextjs", "deployment"],
       "category": "development",
-      "requires": ["docker-dev-environment"],
+      "requires": ["docker-dev-environment", "local-deploy"],
       "optional": [],
       "provides": [],
       "environment": {}
@@ -62,7 +62,7 @@
       "license": "MIT",
       "keywords": ["static", "html", "landing-page", "deployment"],
       "category": "development",
-      "requires": [],
+      "requires": ["local-deploy"],
       "optional": [],
       "provides": [],
       "built_in_capabilities": ["static-site-build"],
@@ -366,6 +366,28 @@
       "optional": [],
       "provides": ["browser-automation"],
       "environment": {}
+    },
+    {
+      "name": "nginx-cloudflare-deploy",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/nginx-cloudflare-deploy"
+      },
+      "description": "Deploy local services and static sites to public HTTPS URLs via Nginx reverse proxy and Cloudflare Tunnel.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["deploy", "nginx", "cloudflare", "tunnel", "reverse-proxy", "self-hosted"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["local-deploy"],
+      "environment": {
+        "binary": ["nginx", "cloudflared"]
+      }
     },
     {
       "name": "dockside",
