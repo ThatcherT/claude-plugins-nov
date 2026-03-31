@@ -46,6 +46,12 @@ Run from the **plugin's own directory**, not here.
 6. Add rows to `plugins/CLAUDE.md` (Statusboard + Directory Layout)
 7. Add row to parent statusboard at `/home/thatcher/projects/nov/projects/CLAUDE.md`
 
+## plugins.nov.solutions
+
+`plugins.nov.solutions` is the web face of this marketplace registry. Its content should reflect `marketplace.json` — plugin cards, versions, descriptions, install commands, and "Learn more" links to each plugin's dedicated site.
+
+When `marketplace.json` changes (new plugin, version bump, description update), update `../staticsites/plugins.nov.solutions/` to match and deploy with `/liteframe:local-deploy`.
+
 ## Capability Contracts
 
 Contracts in `capabilities/*.json` are semantic — they describe behavior, not tool signatures. Each has `name`, `version`, `behavior` (input/output/determinism), and `hints` (optional sideband registry).
