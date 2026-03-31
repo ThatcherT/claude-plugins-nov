@@ -42,7 +42,7 @@
       "license": "MIT",
       "keywords": ["saas", "scaffolding", "django", "nextjs", "deployment"],
       "category": "development",
-      "requires": [],
+      "requires": ["docker-dev-environment"],
       "optional": [],
       "provides": [],
       "environment": {}
@@ -83,12 +83,10 @@
       "license": "MIT",
       "keywords": ["reddit", "audience-research", "market-research"],
       "category": "research",
-      "requires": [],
+      "requires": ["browser-automation"],
       "optional": [],
       "provides": [],
-      "environment": {
-        "mcp": "claude-browser-bridge"
-      }
+      "environment": {}
     },
     {
       "name": "cardwatch",
@@ -328,6 +326,70 @@
       }
     },
     {
+      "name": "daemon-manager",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/daemon-manager"
+      },
+      "description": "Generic daemon lifecycle manager. Start, stop, and monitor persistent background processes with cross-platform IPC.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["daemon", "background", "ipc", "lifecycle", "process"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["daemon"],
+      "environment": {
+        "os": ["linux", "darwin", "windows"]
+      }
+    },
+    {
+      "name": "claude-browser-bridge",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/claude-browser-bridge"
+      },
+      "description": "MCP bridge between Claude Code and your browser via WebSocket extension.",
+      "version": "2.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["browser", "websocket", "extension", "automation"],
+      "category": "provider",
+      "requires": ["daemon"],
+      "optional": [],
+      "provides": ["browser-automation"],
+      "environment": {}
+    },
+    {
+      "name": "dockside",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/dockside"
+      },
+      "description": "Dynamic Docker dev environments with port allocation. Reads docker-compose.yml, runs containers with random host ports, manages lifecycle.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["docker", "compose", "dev-environment", "port-allocation", "containers"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["docker-dev-environment"],
+      "environment": {
+        "binary": "docker"
+      }
+    },
+    {
       "name": "reddit-poster",
       "source": {
         "source": "github",
@@ -342,12 +404,10 @@
       "license": "MIT",
       "keywords": ["reddit", "social-posting", "content", "browser-bridge"],
       "category": "provider",
-      "requires": [],
+      "requires": ["browser-automation"],
       "optional": ["human-approval"],
       "provides": ["social-posting-reddit"],
-      "environment": {
-        "mcp": "claude-browser-bridge"
-      }
+      "environment": {}
     }
   ]
 }
