@@ -1,6 +1,6 @@
-# CLAUDE.md — claude-plugins (marketplace registry)
+# CLAUDE.md — claude-plugin-marketplace (marketplace registry)
 
-This is the `nov-plugins` marketplace registry (`ThatcherT/nov-plugins`). Not a plugin itself — it lists all published plugins for discovery.
+This is the `claude-plugins-nov` marketplace registry (`ThatcherT/claude-plugins-nov`). Not a plugin itself — it lists all published plugins for discovery.
 
 ## Key Files
 
