@@ -48,13 +48,33 @@
       "environment": {}
     },
     {
+      "name": "nov-design-system",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/nov-design-system"
+      },
+      "description": "Design system for nov.solutions — warm dark palette, three-font typography, component standards.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://nov-design-system.nov.solutions",
+      "license": "MIT",
+      "keywords": ["design-system", "css", "typography", "dark-theme", "components"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["design-system"],
+      "environment": {}
+    },
+    {
       "name": "liteframe",
       "source": {
         "source": "github",
         "repo": "ThatcherT/liteframe"
       },
       "description": "Static page publisher. HTML + CSS at any subdomain, deployed to Nginx via Cloudflare Tunnel.",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": {
         "name": "Thatcher"
       },
@@ -62,7 +82,7 @@
       "license": "MIT",
       "keywords": ["static", "html", "landing-page", "deployment"],
       "category": "development",
-      "requires": ["local-deploy"],
+      "requires": ["local-deploy", "design-system"],
       "optional": [],
       "provides": [],
       "built_in_capabilities": ["static-site-build"],
