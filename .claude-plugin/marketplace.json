@@ -264,7 +264,7 @@
         "source": "github",
         "repo": "ThatcherT/approval-channel"
       },
-      "description": "Human approval state machine. Gates actions behind human confirmation. Requires a channel provider for message delivery.",
+      "description": "Human approval state machine. Gates actions behind human confirmation. Channel-agnostic message delivery.",
       "version": "2.0.0",
       "author": {
         "name": "Thatcher"
@@ -273,8 +273,8 @@
       "license": "MIT",
       "keywords": ["approval", "human-in-the-loop", "conversation"],
       "category": "provider",
-      "requires": ["channel"],
-      "optional": [],
+      "requires": [],
+      "optional": ["channel"],
       "provides": ["human-approval"],
       "environment": {}
     },
