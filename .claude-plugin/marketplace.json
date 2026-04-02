@@ -510,6 +510,26 @@
       "optional": ["security-logging", "notification"],
       "provides": [],
       "environment": {}
+    },
+    {
+      "name": "fork",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/claude-fork"
+      },
+      "description": "Fork the current conversation into a new interactive Claude Code session with a focused context brief.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["fork", "context", "session", "workflow", "conversation"],
+      "category": "utilities",
+      "requires": [],
+      "optional": ["terminal-ops"],
+      "provides": [],
+      "environment": {}
     }
   ]
 }
