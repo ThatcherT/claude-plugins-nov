@@ -477,7 +477,7 @@
         "source": "github",
         "repo": "ThatcherT/plugin-tester"
       },
-      "description": "Automated end-to-end testing of plugin install workflows. Spawns test sessions, monitors results, reports pass/fail.",
+      "description": "[DEPRECATED — use plugin-dev:test-live] Automated end-to-end testing of plugin install workflows.",
       "version": "1.0.0",
       "author": {
         "name": "Thatcher"
@@ -508,6 +508,26 @@
       "category": "utilities",
       "requires": [],
       "optional": ["security-logging", "notification"],
+      "provides": [],
+      "environment": {}
+    },
+    {
+      "name": "plugin-dev",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/plugin-dev"
+      },
+      "description": "Plugin development toolkit — local dev iteration loop and marketplace install smoke testing.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["development", "testing", "plugins", "iteration", "e2e"],
+      "category": "framework",
+      "requires": ["agent-spawning"],
+      "optional": [],
       "provides": [],
       "environment": {}
     }
