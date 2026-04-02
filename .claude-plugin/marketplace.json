@@ -315,7 +315,7 @@
       "category": "framework",
       "requires": ["terminal-ops"],
       "optional": ["conversation"],
-      "provides": ["agent-spawning", "channel"],
+      "provides": ["agent-spawning"],
       "environment": {
         "os": "linux",
         "binary": "tmux"
