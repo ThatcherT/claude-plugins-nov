@@ -510,26 +510,6 @@
       "optional": ["security-logging", "notification"],
       "provides": [],
       "environment": {}
-    },
-    {
-      "name": "tangent",
-      "source": {
-        "source": "github",
-        "repo": "ThatcherT/tangent"
-      },
-      "description": "Spawn a focused side session in a new terminal with a context brief from the current conversation.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Thatcher"
-      },
-      "homepage": "https://plugins.nov.solutions",
-      "license": "MIT",
-      "keywords": ["tangent", "context", "session", "workflow", "conversation"],
-      "category": "utilities",
-      "requires": [],
-      "optional": ["terminal-ops"],
-      "provides": [],
-      "environment": {}
     }
   ]
 }
