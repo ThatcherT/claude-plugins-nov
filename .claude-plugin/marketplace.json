@@ -11,7 +11,7 @@
       "name": "softwaresoftware",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/softwaresoftware"
+        "repo": "softwaresoftware-dev/softwaresoftware"
       },
       "description": "Plugin dependency resolver — detects environment, resolves capabilities, auto-selects providers, generates install plans.",
       "version": "1.0.2",
@@ -31,7 +31,7 @@
       "name": "zapframe",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/zapframe"
+        "repo": "softwaresoftware-dev/zapframe"
       },
       "description": "SaaS project creation and feature development agent. Django + Next.js, auth, billing, email, monitoring. Create new apps or develop features on existing ones with regression playbooks.",
       "version": "1.0.0",
@@ -51,7 +51,7 @@
       "name": "softwaresoftware-design-system",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/softwaresoftware-design-system"
+        "repo": "softwaresoftware-dev/softwaresoftware-design-system"
       },
       "description": "Design system for softwaresoftware.dev — warm dark palette, three-font typography, component standards.",
       "version": "1.0.0",
@@ -71,7 +71,7 @@
       "name": "liteframe",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/liteframe"
+        "repo": "softwaresoftware-dev/liteframe"
       },
       "description": "Static page publisher. HTML + CSS at any subdomain, deployed to Nginx via Cloudflare Tunnel.",
       "version": "1.3.0",
@@ -92,7 +92,7 @@
       "name": "gummymine",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/gummymine"
+        "repo": "softwaresoftware-dev/gummymine"
       },
       "description": "Reddit audience research. Scrapes subreddits for complaints, requests, and gaps.",
       "version": "2.0.0",
@@ -112,7 +112,7 @@
       "name": "cardwatch",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/cardwatch"
+        "repo": "softwaresoftware-dev/cardwatch"
       },
       "description": "Pokemon card stock monitor. Tracks inventory at 7 major retailers, auto-enters virtual queues, sends phone + desktop notifications.",
       "version": "2.0.0",
@@ -132,7 +132,7 @@
       "name": "notify-linux",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/notify-linux"
+        "repo": "softwaresoftware-dev/notify-linux"
       },
       "description": "Linux desktop notifications via notify-send.",
       "version": "2.0.0",
@@ -155,7 +155,7 @@
       "name": "notify-windows",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/notify-windows"
+        "repo": "softwaresoftware-dev/notify-windows"
       },
       "description": "Windows desktop notifications via toast API.",
       "version": "1.0.0",
@@ -177,7 +177,7 @@
       "name": "termux-remote",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/termux-remote"
+        "repo": "softwaresoftware-dev/termux-remote"
       },
       "description": "Remote phone capabilities via Termux HTTP bridge. Notifications and SMS through a single connection.",
       "version": "1.1.1",
@@ -199,7 +199,7 @@
       "name": "notify-slack",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/notify-slack"
+        "repo": "softwaresoftware-dev/notify-slack"
       },
       "description": "Slack notifications via incoming webhooks.",
       "version": "1.1.1",
@@ -219,7 +219,7 @@
       "name": "notify-email",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/notify-email"
+        "repo": "softwaresoftware-dev/notify-email"
       },
       "description": "Email notifications via Gmail SMTP. Implements the notification capability contract.",
       "version": "1.1.1",
@@ -239,7 +239,7 @@
       "name": "scheduler-cron",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/scheduler-cron"
+        "repo": "softwaresoftware-dev/scheduler-cron"
       },
       "description": "Cron-based task scheduling for autonomous agents. Implements the scheduling capability contract.",
       "version": "1.0.0",
@@ -262,7 +262,7 @@
       "name": "approval-channel",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/approval-channel"
+        "repo": "softwaresoftware-dev/approval-channel"
       },
       "description": "Human approval state machine. Gates actions behind human confirmation. Channel-agnostic message delivery.",
       "version": "2.0.0",
@@ -282,7 +282,7 @@
       "name": "memory-file",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/memory-file"
+        "repo": "softwaresoftware-dev/memory-file"
       },
       "description": "File-based persistent memory for autonomous agents. Implements the memory capability contract.",
       "version": "1.0.0",
@@ -302,7 +302,7 @@
       "name": "taskpilot",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/taskpilot"
+        "repo": "softwaresoftware-dev/taskpilot"
       },
       "description": "Spawn and manage long-running autonomous Claude Code sessions. Auto-resolves capability plugins from marketplace. Channel-based communication, crash recovery, operating briefs.",
       "version": "0.2.0",
@@ -325,7 +325,7 @@
       "name": "termux-conversation",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/termux-conversation"
+        "repo": "softwaresoftware-dev/termux-conversation"
       },
       "description": "Conversation provider via Termux notifications with inline reply. Routes replies back to agent channels.",
       "version": "1.1.1",
@@ -347,7 +347,7 @@
       "name": "daemon-manager",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/daemon-manager"
+        "repo": "softwaresoftware-dev/daemon-manager"
       },
       "description": "Generic daemon lifecycle manager. Start, stop, and monitor persistent background processes with cross-platform IPC.",
       "version": "1.0.0",
@@ -369,7 +369,7 @@
       "name": "claude-browser-bridge",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/claude-browser-bridge"
+        "repo": "softwaresoftware-dev/claude-browser-bridge"
       },
       "description": "MCP bridge between Claude Code and your browser via WebSocket extension.",
       "version": "2.0.3",
@@ -389,7 +389,7 @@
       "name": "nginx-cloudflare-deploy",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/nginx-cloudflare-deploy"
+        "repo": "softwaresoftware-dev/nginx-cloudflare-deploy"
       },
       "description": "Deploy local services and static sites to public HTTPS URLs via Nginx reverse proxy and Cloudflare Tunnel. Guided setup with persistent config.",
       "version": "1.1.0",
@@ -411,7 +411,7 @@
       "name": "dockside",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/dockside"
+        "repo": "softwaresoftware-dev/dockside"
       },
       "description": "Dynamic Docker dev environments with port allocation. Reads docker-compose.yml, runs containers with random host ports, manages lifecycle.",
       "version": "1.0.0",
@@ -433,7 +433,7 @@
       "name": "reddit-poster",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/reddit-poster"
+        "repo": "softwaresoftware-dev/reddit-poster"
       },
       "description": "Reddit posting data layer with rate limiting and performance tracking. Browser automation agent-driven via browser-bridge.",
       "version": "1.0.0",
@@ -453,7 +453,7 @@
       "name": "tmux-session",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/tmux-session"
+        "repo": "softwaresoftware-dev/tmux-session"
       },
       "description": "Terminal session management via tmux. Create, monitor, and control detached terminal sessions.",
       "version": "1.0.0",
@@ -475,7 +475,7 @@
       "name": "plugin-tester",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/plugin-tester"
+        "repo": "softwaresoftware-dev/plugin-tester"
       },
       "description": "[DEPRECATED — use plugin-dev:test-live] Automated end-to-end testing of plugin install workflows.",
       "version": "1.0.0",
@@ -495,7 +495,7 @@
       "name": "prompt-guard",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/prompt-guard"
+        "repo": "softwaresoftware-dev/prompt-guard"
       },
       "description": "Detects prompt injection attempts — privilege escalation, fake system prompts, instruction override, social engineering. Delegates logging to a compatible security-logging provider.",
       "version": "1.0.0",
@@ -515,7 +515,7 @@
       "name": "plugin-dev",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/plugin-dev"
+        "repo": "softwaresoftware-dev/plugin-dev"
       },
       "description": "Plugin development toolkit — local dev iteration loop and marketplace install smoke testing.",
       "version": "1.0.0",
@@ -535,7 +535,7 @@
       "name": "payment-vault",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/payment-vault"
+        "repo": "softwaresoftware-dev/payment-vault"
       },
       "description": "Secure payment data provider. Stores credit/debit card info and fills payment forms without exposing raw values to conversation context.",
       "version": "1.0.0",
@@ -555,7 +555,7 @@
       "name": "address-vault",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/address-vault"
+        "repo": "softwaresoftware-dev/address-vault"
       },
       "description": "Secure address data provider. Stores complete address info and fills forms without exposing raw values to conversation context.",
       "version": "1.0.0",
@@ -575,7 +575,7 @@
       "name": "contacts-vault",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/contacts-vault"
+        "repo": "softwaresoftware-dev/contacts-vault"
       },
       "description": "Secure contacts data provider. Stores contact info and fills forms without exposing raw values to conversation context.",
       "version": "1.0.0",
@@ -595,7 +595,7 @@
       "name": "vehicle-vault",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/vehicle-vault"
+        "repo": "softwaresoftware-dev/vehicle-vault"
       },
       "description": "Secure vehicle data provider. Stores VIN, plate, insurance info and fills forms without exposing raw values to conversation context.",
       "version": "1.0.0",
@@ -615,7 +615,7 @@
       "name": "identity-vault",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/identity-vault"
+        "repo": "softwaresoftware-dev/identity-vault"
       },
       "description": "Secure identity document provider. Stores SSN, driver's license, passport info and fills forms without exposing raw values to conversation context.",
       "version": "1.0.0",
@@ -635,7 +635,7 @@
       "name": "banking-vault",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/banking-vault"
+        "repo": "softwaresoftware-dev/banking-vault"
       },
       "description": "Secure banking data provider. Stores routing/account numbers and fills forms without exposing raw values to conversation context.",
       "version": "1.0.0",
@@ -655,7 +655,7 @@
       "name": "tokenboard",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/tokenboard"
+        "repo": "softwaresoftware-dev/tokenboard"
       },
       "description": "Token usage leaderboard — calculates Claude Code API cost equivalent and uploads to the public leaderboard at tokenboard.softwaresoftware.dev.",
       "version": "1.0.0",
