@@ -525,7 +525,7 @@
       "homepage": "https://plugins.nov.solutions",
       "license": "MIT",
       "keywords": ["development", "testing", "plugins", "iteration", "e2e"],
-      "category": "framework",
+      "category": "toolkit",
       "requires": ["agent-spawning"],
       "optional": [],
       "provides": [],

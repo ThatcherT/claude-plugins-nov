@@ -35,7 +35,7 @@ Run from the **plugin's own directory**, not here.
      "homepage": "https://plugins.nov.solutions",
      "license": "MIT",
      "keywords": [],
-     "category": "<development|research|utilities|provider|framework>",
+     "category": "<development|research|utilities|provider|framework|toolkit>",
      "requires": [],
      "optional": [],
      "provides": [],
