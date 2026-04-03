@@ -1,0 +1,11 @@
+{
+  "name": "browser-automation",
+  "description": "Control a real browser — navigate, click, type, screenshot, read page content. Providers bridge Claude Code to a user's actual browser session with full interaction capabilities.",
+  "version": "1.0.0",
+  "behavior": {
+    "input": "Actions like navigate, click, type, screenshot with CSS selectors and URLs",
+    "output": "Page content, screenshots, element info, or confirmation of interaction",
+    "deterministic": "Actions execute against the live browser state — results depend on page content"
+  },
+  "hints": {}
+}

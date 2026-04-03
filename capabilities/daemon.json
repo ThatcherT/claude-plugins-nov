@@ -1,0 +1,11 @@
+{
+  "name": "daemon",
+  "description": "Manage persistent background processes that survive across Claude Code sessions. Start, stop, and query daemon lifecycle. Providers handle PID management, IPC address allocation, and cross-platform process spawning.",
+  "version": "1.0.0",
+  "behavior": {
+    "input": "A daemon name, command to run, optional args/cwd/env",
+    "output": "IPC address for connecting to the daemon, PID, and lifecycle status",
+    "deterministic": "Start is idempotent — returns existing address if daemon is already running"
+  },
+  "hints": {}
+}
