@@ -44,7 +44,7 @@ Run from the **plugin's own directory**, not here.
    ```
 5. Commit + push this repo
 6. Add rows to `plugins/CLAUDE.md` (Statusboard + Directory Layout)
-7. Add row to parent statusboard at `/home/thatcher/projects/nov/projects/CLAUDE.md`
+7. Add row to parent statusboard at `/home/thatcher/projects/softwaresoftware/projects/CLAUDE.md`
 
 ## plugins.softwaresoftware.dev
 
