@@ -652,6 +652,138 @@
       "environment": {}
     },
     {
+      "name": "playwright",
+      "source": {
+        "source": "registry",
+        "registry": "claude-plugins-official"
+      },
+      "description": "Browser automation and E2E testing via Microsoft Playwright MCP server.",
+      "version": "0.0.0",
+      "author": {
+        "name": "Microsoft"
+      },
+      "homepage": "https://github.com/anthropics/claude-plugins-official",
+      "keywords": ["browser", "automation", "testing", "playwright"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["browser-automation"],
+      "environment": {
+        "binary": "npx"
+      },
+      "external": true
+    },
+    {
+      "name": "stagehand",
+      "source": {
+        "source": "registry",
+        "registry": "claude-plugins-official"
+      },
+      "description": "AI-native browser automation skill using Stagehand. Natural language web interaction.",
+      "version": "0.0.0",
+      "author": {
+        "name": "Browserbase"
+      },
+      "homepage": "https://github.com/anthropics/claude-plugins-official",
+      "keywords": ["browser", "automation", "stagehand", "ai-native"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["browser-automation"],
+      "environment": {
+        "binary": "npx"
+      },
+      "external": true
+    },
+    {
+      "name": "vercel",
+      "source": {
+        "source": "registry",
+        "registry": "claude-plugins-official"
+      },
+      "description": "Deploy to Vercel — manage deployments, check build status, configure domains.",
+      "version": "0.0.0",
+      "author": {
+        "name": "Vercel"
+      },
+      "homepage": "https://github.com/anthropics/claude-plugins-official",
+      "keywords": ["deploy", "vercel", "hosting", "serverless"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["deploy"],
+      "environment": {
+        "env": "VERCEL_TOKEN"
+      },
+      "external": true
+    },
+    {
+      "name": "netlify-skills",
+      "source": {
+        "source": "registry",
+        "registry": "claude-plugins-official"
+      },
+      "description": "Deploy to Netlify — functions, edge functions, blobs, and site management.",
+      "version": "0.0.0",
+      "author": {
+        "name": "Netlify"
+      },
+      "homepage": "https://github.com/anthropics/claude-plugins-official",
+      "keywords": ["deploy", "netlify", "hosting", "jamstack"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["deploy"],
+      "environment": {
+        "env": "NETLIFY_AUTH_TOKEN"
+      },
+      "external": true
+    },
+    {
+      "name": "deploy-on-aws",
+      "source": {
+        "source": "registry",
+        "registry": "claude-plugins-official"
+      },
+      "description": "Deploy to AWS with architecture recommendations, cost estimates, and IaC.",
+      "version": "0.0.0",
+      "author": {
+        "name": "AWS"
+      },
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "keywords": ["deploy", "aws", "cloud", "infrastructure"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["deploy"],
+      "environment": {
+        "binary": "aws"
+      },
+      "external": true
+    },
+    {
+      "name": "railway",
+      "source": {
+        "source": "registry",
+        "registry": "claude-plugins-official"
+      },
+      "description": "Deploy to Railway — manage apps, databases, and infrastructure.",
+      "version": "0.0.0",
+      "author": {
+        "name": "Railway"
+      },
+      "homepage": "https://github.com/anthropics/claude-plugins-official",
+      "keywords": ["deploy", "railway", "hosting", "paas"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["deploy"],
+      "environment": {
+        "env": "RAILWAY_TOKEN"
+      },
+      "external": true
+    },
+    {
       "name": "tokenboard",
       "source": {
         "source": "github",
