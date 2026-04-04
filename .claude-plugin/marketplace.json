@@ -814,6 +814,26 @@
       "optional": [],
       "provides": [],
       "environment": {}
+    },
+    {
+      "name": "gmail-mcp",
+      "source": {
+        "source": "github",
+        "repo": "softwaresoftware-dev/gmail-mcp"
+      },
+      "description": "MCP server for Gmail — read, search, label, filter, and archive emails. No delete capability by design.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://gmail-mcp.softwaresoftware.dev",
+      "license": "MIT",
+      "keywords": ["gmail", "email", "mcp", "organize", "labels", "filters"],
+      "category": "utilities",
+      "requires": [],
+      "optional": [],
+      "provides": [],
+      "environment": {}
     }
   ]
 }
