@@ -54,6 +54,26 @@
       "environment": {}
     },
     {
+      "name": "ironframe",
+      "source": {
+        "source": "github",
+        "repo": "softwaresoftware-dev/ironframe"
+      },
+      "description": "Enterprise project creation agent. Django + Next.js with SSO, RBAC, audit logging, multi-tenancy, API key management, and GDPR compliance. Everything in zapframe plus enterprise-grade features.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://ironframe.softwaresoftware.dev",
+      "license": "MIT",
+      "keywords": ["enterprise", "saas", "scaffolding", "django", "nextjs", "sso", "rbac", "audit", "multi-tenant", "compliance"],
+      "category": "development",
+      "requires": ["docker-dev-environment", "deploy"],
+      "optional": [],
+      "provides": [],
+      "environment": {}
+    },
+    {
       "name": "softwaresoftware-design-system",
       "source": {
         "source": "github",
