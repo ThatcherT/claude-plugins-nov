@@ -1,10 +1,9 @@
 {
   "name": "channel",
-  "description": "Deliver a message to a human-visible channel and optionally receive replies. The raw transport layer for human communication — approval workflows, conversations, and other human-in-the-loop patterns build on top of this. Consumers provide the message text; the provider handles delivery and reply routing.",
-  "version": "1.0.0",
+  "description": "Deliver a message through a communication channel and optionally receive a reply. When a reply is expected, the provider includes a short correlation ID in the delivered message so the recipient can reference it in their response. The provider handles delivery mechanics, ID matching, and reply retrieval.",
+  "version": "2.0.0",
   "behavior": {
-    "input": "A message string to deliver to the human",
-    "output": "Confirmation of delivery with channel details",
-    "deterministic": "Delivery must succeed or return explicit failure. Never silently drop messages."
+    "input": "A message string and whether a reply is expected",
+    "output": "Delivery confirmation with a message ID. When a reply is expected, a mechanism to retrieve the response by message ID. Replies may time out."
   }
 }
