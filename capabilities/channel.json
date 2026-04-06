@@ -8,12 +8,6 @@
     "deterministic": "Delivery must succeed or return explicit failure. Never silently drop messages."
   },
   "hints": {
-    "urgency": {
-      "type": "string",
-      "enum": ["low", "normal", "critical"],
-      "default": "normal",
-      "description": "Urgency level — provider maps to appropriate delivery priority"
-    },
     "expects_reply": {
       "type": "boolean",
       "default": false,
