@@ -121,7 +121,7 @@
         "repo": "softwaresoftware-dev/gummymine-plugin"
       },
       "description": "Reddit audience research — mine subreddits for demand signals via gummymine.softwaresoftware.dev",
-      "version": "3.0.0",
+      "version": "3.0.1",
       "author": {
         "name": "Thatcher"
       },
