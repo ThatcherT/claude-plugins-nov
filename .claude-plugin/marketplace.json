@@ -16,8 +16,8 @@
     {
       "name": "softwaresoftware",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/softwaresoftware"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/softwaresoftware.git"
       },
       "description": "Plugin dependency resolver — detects environment, resolves capabilities, auto-selects providers, generates install plans.",
       "version": "1.3.0",
@@ -35,8 +35,8 @@
     {
       "name": "zapframe",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/zapframe"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/zapframe.git"
       },
       "description": "SaaS project creation and feature development agent. Django + Next.js, auth, billing, email, monitoring. Create new apps or develop features on existing ones with regression playbooks.",
       "version": "1.1.1",
@@ -54,8 +54,8 @@
     {
       "name": "ironframe",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/ironframe"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/ironframe.git"
       },
       "description": "Enterprise project creation agent. Django + Next.js with SSO, RBAC, audit logging, multi-tenancy, API key management, and GDPR compliance. Everything in zapframe plus enterprise-grade features.",
       "version": "1.0.1",
@@ -73,8 +73,8 @@
     {
       "name": "softwaresoftware-design-system",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/softwaresoftware-design-system"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/softwaresoftware-design-system.git"
       },
       "description": "Design system for softwaresoftware.dev — warm dark palette, three-font typography, component standards.",
       "version": "1.0.0",
@@ -92,8 +92,8 @@
     {
       "name": "liteframe",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/liteframe"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/liteframe.git"
       },
       "description": "Static page publisher. HTML + CSS at any subdomain, deployed to Nginx via Cloudflare Tunnel.",
       "version": "1.4.0",
@@ -112,8 +112,8 @@
     {
       "name": "gummymine",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/gummymine-plugin"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/gummymine-plugin.git"
       },
       "description": "Reddit audience research — mine subreddits for demand signals via gummymine.softwaresoftware.dev",
       "version": "3.0.1",
@@ -131,8 +131,8 @@
     {
       "name": "cardwatch",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/cardwatch"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/cardwatch.git"
       },
       "description": "Pokemon card stock monitor. Tracks inventory at 7 major retailers, auto-enters virtual queues, sends phone + desktop notifications.",
       "version": "2.0.0",
@@ -150,8 +150,8 @@
     {
       "name": "notify-linux",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/notify-linux"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/notify-linux.git"
       },
       "description": "Linux desktop notifications via notify-send.",
       "version": "2.0.0",
@@ -172,8 +172,8 @@
     {
       "name": "notify-windows",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/notify-windows"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/notify-windows.git"
       },
       "description": "Windows desktop notifications via toast API.",
       "version": "1.0.0",
@@ -193,8 +193,8 @@
     {
       "name": "termux-remote",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/termux-remote"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/termux-remote.git"
       },
       "description": "Remote phone capabilities via Termux HTTP bridge. Notifications and SMS through a single connection.",
       "version": "1.1.1",
@@ -214,8 +214,8 @@
     {
       "name": "notify-slack",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/notify-slack"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/notify-slack.git"
       },
       "description": "Slack notifications via incoming webhooks.",
       "version": "1.1.1",
@@ -233,8 +233,8 @@
     {
       "name": "notify-email",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/notify-email"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/notify-email.git"
       },
       "description": "Email notifications via Gmail SMTP. Implements the notification capability contract.",
       "version": "1.1.1",
@@ -252,8 +252,8 @@
     {
       "name": "approval-channel",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/approval-channel"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/approval-channel.git"
       },
       "description": "Human approval state machine. Gates actions behind human confirmation. Channel-agnostic message delivery.",
       "version": "2.0.0",
@@ -271,8 +271,8 @@
     {
       "name": "memory-file",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/memory-file"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/memory-file.git"
       },
       "description": "File-based persistent memory for autonomous agents. Implements the memory capability contract.",
       "version": "1.0.0",
@@ -290,8 +290,8 @@
     {
       "name": "taskpilot",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/taskpilot"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/taskpilot.git"
       },
       "description": "Spawn and manage long-running autonomous Claude Code sessions. kind=service agents survive reboots via systemd. Channel-based communication, crash recovery, operating briefs, built-in cron scheduling.",
       "version": "0.4.0",
@@ -313,8 +313,8 @@
     {
       "name": "termux-channel",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/termux-channel"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/termux-channel.git"
       },
       "description": "SMS channel provider via Termux. Delivers messages as phone notifications with correlation IDs for reply tracking.",
       "version": "1.0.0",
@@ -334,8 +334,8 @@
     {
       "name": "daemon-manager",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/daemon-manager"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/daemon-manager.git"
       },
       "description": "Generic daemon lifecycle manager. Start, stop, and monitor persistent background processes with cross-platform IPC.",
       "version": "1.1.1",
@@ -355,8 +355,8 @@
     {
       "name": "claude-browser-bridge",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/claude-browser-bridge"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/claude-browser-bridge.git"
       },
       "description": "MCP bridge between Claude Code and your browser via WebSocket extension.",
       "version": "3.2.0",
@@ -374,8 +374,8 @@
     {
       "name": "nginx-cloudflare-deploy",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/nginx-cloudflare-deploy"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/nginx-cloudflare-deploy.git"
       },
       "description": "Deploy local services and static sites to public HTTPS URLs via Nginx reverse proxy and Cloudflare Tunnel. Guided setup with persistent config.",
       "version": "1.1.0",
@@ -395,8 +395,8 @@
     {
       "name": "dockside",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/dockside"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/dockside.git"
       },
       "description": "Dynamic Docker dev environments with port allocation. Reads docker-compose.yml, runs containers with random host ports, manages lifecycle.",
       "version": "1.0.0",
@@ -416,8 +416,8 @@
     {
       "name": "reddit-poster",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/reddit-poster"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/reddit-poster.git"
       },
       "description": "Reddit social-posting provider. Posts, replies, deletes, and tracks performance on Reddit via browser automation.",
       "version": "1.1.0",
@@ -435,8 +435,8 @@
     {
       "name": "tmux-session",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/tmux-session"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/tmux-session.git"
       },
       "description": "Terminal session management via tmux. Create, monitor, and control detached terminal sessions.",
       "version": "1.0.0",
@@ -456,8 +456,8 @@
     {
       "name": "plugin-tester",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/plugin-tester"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/plugin-tester.git"
       },
       "description": "[DEPRECATED — use plugin-dev:test-live] Automated end-to-end testing of plugin install workflows.",
       "version": "1.0.0",
@@ -475,8 +475,8 @@
     {
       "name": "prompt-guard",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/prompt-guard"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/prompt-guard.git"
       },
       "description": "Detects prompt injection attempts — privilege escalation, fake system prompts, instruction override, social engineering. Delegates logging to a compatible security-logging provider.",
       "version": "1.0.0",
@@ -494,8 +494,8 @@
     {
       "name": "plugin-dev",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/plugin-dev"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/plugin-dev.git"
       },
       "description": "Plugin development toolkit — local dev iteration loop and marketplace install smoke testing.",
       "version": "1.0.0",
@@ -513,8 +513,8 @@
     {
       "name": "payment-vault",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/payment-vault"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/payment-vault.git"
       },
       "description": "Secure payment data provider. Stores credit/debit card info and fills payment forms without exposing raw values to conversation context.",
       "version": "1.0.0",
@@ -532,8 +532,8 @@
     {
       "name": "address-vault",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/address-vault"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/address-vault.git"
       },
       "description": "Secure address data provider. Stores complete address info and fills forms without exposing raw values to conversation context.",
       "version": "1.0.0",
@@ -551,8 +551,8 @@
     {
       "name": "contacts-vault",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/contacts-vault"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/contacts-vault.git"
       },
       "description": "Secure contacts data provider. Stores contact info and fills forms without exposing raw values to conversation context.",
       "version": "1.0.0",
@@ -570,8 +570,8 @@
     {
       "name": "vehicle-vault",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/vehicle-vault"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/vehicle-vault.git"
       },
       "description": "Secure vehicle data provider. Stores VIN, plate, insurance info and fills forms without exposing raw values to conversation context.",
       "version": "1.0.0",
@@ -589,8 +589,8 @@
     {
       "name": "identity-vault",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/identity-vault"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/identity-vault.git"
       },
       "description": "Secure identity document provider. Stores SSN, driver's license, passport info and fills forms without exposing raw values to conversation context.",
       "version": "1.0.0",
@@ -608,8 +608,8 @@
     {
       "name": "banking-vault",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/banking-vault"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/banking-vault.git"
       },
       "description": "Secure banking data provider. Stores routing/account numbers and fills forms without exposing raw values to conversation context.",
       "version": "1.0.0",
@@ -627,8 +627,8 @@
     {
       "name": "playwright",
       "source": {
-        "source": "github",
-        "repo": "anthropics/claude-plugins-official"
+        "source": "url",
+        "url": "https://github.com/anthropics/claude-plugins-official.git"
       },
       "registry": "claude-plugins-official",
       "description": "Browser automation and E2E testing via Microsoft Playwright MCP server.",
@@ -650,8 +650,8 @@
     {
       "name": "stagehand",
       "source": {
-        "source": "github",
-        "repo": "anthropics/claude-plugins-official"
+        "source": "url",
+        "url": "https://github.com/anthropics/claude-plugins-official.git"
       },
       "registry": "claude-plugins-official",
       "description": "AI-native browser automation skill using Stagehand. Natural language web interaction.",
@@ -673,8 +673,8 @@
     {
       "name": "vercel",
       "source": {
-        "source": "github",
-        "repo": "anthropics/claude-plugins-official"
+        "source": "url",
+        "url": "https://github.com/anthropics/claude-plugins-official.git"
       },
       "registry": "claude-plugins-official",
       "description": "Deploy to Vercel — manage deployments, check build status, configure domains.",
@@ -696,8 +696,8 @@
     {
       "name": "netlify-skills",
       "source": {
-        "source": "github",
-        "repo": "anthropics/claude-plugins-official"
+        "source": "url",
+        "url": "https://github.com/anthropics/claude-plugins-official.git"
       },
       "registry": "claude-plugins-official",
       "description": "Deploy to Netlify — functions, edge functions, blobs, and site management.",
@@ -719,8 +719,8 @@
     {
       "name": "deploy-on-aws",
       "source": {
-        "source": "github",
-        "repo": "awslabs/agent-plugins"
+        "source": "url",
+        "url": "https://github.com/awslabs/agent-plugins.git"
       },
       "registry": "claude-plugins-official",
       "description": "Deploy to AWS with architecture recommendations, cost estimates, and IaC.",
@@ -742,8 +742,8 @@
     {
       "name": "railway",
       "source": {
-        "source": "github",
-        "repo": "anthropics/claude-plugins-official"
+        "source": "url",
+        "url": "https://github.com/anthropics/claude-plugins-official.git"
       },
       "registry": "claude-plugins-official",
       "description": "Deploy to Railway — manage apps, databases, and infrastructure.",
@@ -765,8 +765,8 @@
     {
       "name": "tokenboard",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/tokenboard"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/tokenboard.git"
       },
       "description": "Token usage leaderboard — calculates Claude Code API cost equivalent and uploads to the public leaderboard at tokenboard.softwaresoftware.dev.",
       "version": "1.0.0",
@@ -784,8 +784,8 @@
     {
       "name": "gmail-mcp",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/gmail-mcp"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/gmail-mcp.git"
       },
       "description": "MCP server for Gmail — read, search, label, filter, send, and archive emails. Includes email manager mode with auto-triage and Slack approval. No delete capability by design.",
       "version": "1.2.0",
@@ -803,8 +803,8 @@
     {
       "name": "knowledge-base",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/knowledge-base"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/knowledge-base.git"
       },
       "description": "Obsidian-powered knowledge base that Claude maintains across sessions. Tracks project status, decisions, infrastructure, and cross-project relationships in a browsable wiki.",
       "version": "1.0.0",
@@ -822,8 +822,8 @@
     {
       "name": "browser-qa",
       "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/browser-qa"
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/browser-qa.git"
       },
       "description": "Visual QA for web apps — screenshot, verify consistency, test interactivity, catch regressions",
       "version": "0.1.0",
