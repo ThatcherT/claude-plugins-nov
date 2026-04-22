@@ -112,6 +112,25 @@
       "environment": {}
     },
     {
+      "name": "mindframe",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/softwaresoftware-dev/mindframe.git"
+      },
+      "description": "LLM-in-the-loop infra dashboard framework. Describe what you watch; Claude inspects your stack, writes source packs against real API responses, and serves a live status page.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.softwaresoftware.dev",
+      "keywords": ["dashboard", "infra", "monitoring", "observability", "claude"],
+      "category": "development",
+      "requires": [],
+      "optional": [],
+      "provides": [],
+      "environment": {}
+    },
+    {
       "name": "gummymine",
       "source": {
         "source": "url",
