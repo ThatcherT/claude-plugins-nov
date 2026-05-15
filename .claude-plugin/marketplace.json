@@ -512,7 +512,7 @@
         "scheduling"
       ],
       "environment": {
-        "os": "linux",
+        "os": ["linux", "darwin"],
         "binary": "tmux"
       }
     },
