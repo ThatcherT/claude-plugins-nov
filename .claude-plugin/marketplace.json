@@ -170,7 +170,7 @@
         "url": "https://github.com/softwaresoftware-dev/mindframe.git"
       },
       "description": "AI agents that learn your org and act on it.",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "author": {
         "name": "NOV LLC"
       },
@@ -524,8 +524,8 @@
         "source": "url",
         "url": "https://github.com/softwaresoftware-dev/session-bridge-plugin.git"
       },
-      "description": "Channel MCP that lets Claude Code sessions message each other. Provides the session-mesh capability \u2014 bidirectional inbound/outbound communication between live sessions, used by taskpilot and dispatcher for agent-to-agent and external-event routing.",
-      "version": "0.1.0",
+      "description": "Channel MCP that lets Claude Code sessions message each other. Provides the session-mesh capability \u2014 bidirectional inbound/outbound communication between live sessions, used by taskpilot and dispatcher for agent-to-agent and external-event routing. Bundles the FastAPI bridge daemon and installs it via the daemon capability.",
+      "version": "0.2.0",
       "author": {
         "name": "NOV LLC"
       },
@@ -538,12 +538,16 @@
         "provider"
       ],
       "category": "provider",
-      "requires": [],
+      "requires": [
+        "daemon"
+      ],
       "optional": [],
       "provides": [
         "session-mesh"
       ],
-      "environment": {}
+      "environment": {
+        "binary": ["python3"]
+      }
     },
     {
       "name": "termux-channel",
@@ -581,8 +585,8 @@
         "source": "url",
         "url": "https://github.com/softwaresoftware-dev/daemon-manager.git"
       },
-      "description": "Generic daemon lifecycle manager. Start, stop, and monitor persistent background processes with cross-platform IPC.",
-      "version": "1.1.2",
+      "description": "Generic daemon lifecycle manager. Start, stop, and monitor persistent background processes with cross-platform IPC. Includes daemon_install_autostart for one-call launchd / systemd / Task Scheduler registration.",
+      "version": "1.2.0",
       "author": {
         "name": "NOV LLC"
       },
